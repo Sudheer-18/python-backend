@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # ✅ Add this line
+from flask_cors import CORS  
 import os
 import PyPDF2 as pdf
 import google.generativeai as genai
